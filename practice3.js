@@ -13,11 +13,9 @@ const url = "mongodb://localhost:27017/contacts";
 
 const client = new MongoClient(url, {useUnifiedTopology: true});
 client.connect();
+const database = client.db("contacts");
 
 const options = async function () {
-
-    const database = client.db("contacts");
-
     const collections = await database.listCollections().toArray();
     const collectionsName = [];
     for (let i in collections) {
