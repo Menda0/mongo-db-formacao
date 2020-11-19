@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "practice2": "node practice2.js",
-    "practice3": "node practice3.js"
+    "practice3": "node practice3.js",
+    "practice4": "node practice4.js",
+    "practice5": "node practice5.js"
   },
   "author": "",
   "license": "ISC",
